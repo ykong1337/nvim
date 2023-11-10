@@ -10,11 +10,12 @@ opt.scrolloff = 4 -- int:  Min num lines of context
 opt.signcolumn = "yes" -- str:  Show the sign column
 opt.numberwidth = 4 -- gutter width
 opt.cursorline = true -- display cursor line
-opt.cursorlineopt = 'number'
+opt.cursorlineopt = "number"
+opt.fileformat = "unix"
 
 -- [[ Filetypes ]]
-opt.encoding = 'utf8' -- str:  String encoding to use
-opt.fileencoding = 'utf8' -- str:  File encoding to use
+opt.encoding = "utf8" -- str:  String encoding to use
+opt.fileencoding = "utf8" -- str:  File encoding to use
 
 -- [[ Theme ]]
 opt.syntax = "ON" -- str:  Allow syntax highlighting
