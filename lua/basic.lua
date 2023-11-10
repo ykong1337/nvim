@@ -4,6 +4,7 @@ local opt = vim.opt
 g.t_co = 256
 g.background = "dark"
 
+opt.wrap = false
 opt.number = true -- bool: Show line numbers
 opt.scrolloff = 4 -- int:  Min num lines of context
 opt.signcolumn = "yes" -- str:  Show the sign column
