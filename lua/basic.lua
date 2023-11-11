@@ -5,34 +5,29 @@ g.t_co = 256
 g.background = "dark"
 
 opt.wrap = false
-opt.number = true -- bool: Show line numbers
-opt.scrolloff = 4 -- int:  Min num lines of context
-opt.signcolumn = "yes" -- str:  Show the sign column
-opt.numberwidth = 4 -- gutter width
-opt.cursorline = true -- display cursor line
+opt.number = true
+opt.scrolloff = 4
+opt.signcolumn = "yes"
+opt.numberwidth = 4
+opt.cursorline = true
 opt.cursorlineopt = "number"
 opt.fileformat = "unix"
 
--- [[ Filetypes ]]
-opt.encoding = "utf8" -- str:  String encoding to use
-opt.fileencoding = "utf8" -- str:  File encoding to use
+opt.encoding = "utf8"
+opt.fileencoding = "utf8"
 
--- [[ Theme ]]
-opt.syntax = "ON" -- str:  Allow syntax highlighting
-opt.termguicolors = true -- bool: If term supports ui color then enable
+opt.syntax = "ON"
+opt.termguicolors = true
 
--- [[ Search ]]
-opt.ignorecase = true -- bool: Ignore case in search patterns
-opt.smartcase = true -- bool: Override ignorecase if search contains capitals
-opt.incsearch = true -- bool: Use incremental search
-opt.hlsearch = false -- bool: Highlight search matches
+opt.ignorecase = true
+opt.smartcase = true
+opt.incsearch = true
+opt.hlsearch = false
 
--- [[ Whitespace ]]
-opt.expandtab = true -- bool: Use spaces instead of tabs
-opt.shiftwidth = 4 -- num:  Size of an indent
-opt.softtabstop = 4 -- num:  Number of spaces tabs count for in insert mode
-opt.tabstop = 4 -- num:  Number of spaces tabs count for
+opt.expandtab = true
+opt.shiftwidth = 4
+opt.softtabstop = 4
+opt.tabstop = 4
 
--- [[ Splits ]]
-opt.splitright = true -- bool: Place new window to right of current one
-opt.splitbelow = true -- bool: Place new window below the current one
+opt.splitright = true
+opt.splitbelow = true
