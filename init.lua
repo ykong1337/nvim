@@ -1,4 +1,4 @@
 require('basic')
-require('key')
 require('plugin')
+require('key')
 require('color')

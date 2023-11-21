@@ -1,6 +1,6 @@
 return {
-    "mhartington/formatter.nvim",
-    opts = {
-        vim.keymap.set("n", "<A-l>", ":Format<CR>"),
-    },
+    "sbdchd/neoformat",
+    config = function()
+        vim.keymap.set("n", "<A-l>", ":Neoformat<CR>", { silent = true })
+    end,
 }
