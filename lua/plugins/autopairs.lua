@@ -1,3 +1,6 @@
 return {
-    "jiangmiao/auto-pairs",
+    "windwp/nvim-autopairs",
+    opts = {
+        map_cr = false,
+    },
 }
