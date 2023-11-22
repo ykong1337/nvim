@@ -22,23 +22,24 @@ git clone https://github.com/ykong1337/nvim
 
 #### Normal
 
-| Key       | description              |
-|-----------|--------------------------|
-| Tab       | Open/Close file explorer |
-| Alt + L   | Format code              |
-| F12       | Open/Close terminal      |
-| F7        | New terminal             |
-| F8        | Prev terminal            |
-| F9        | Next terminal            |
-| F10       | Delete current terminal  |
-| Ctrl + K  | Go up a window           |
-| Ctrl + J  | Go down a window         |
-| Ctrl + H  | Go left a window         |
-| Ctrl + L  | Go right a window        |
-| Space     | Search                   |
-| Shift + Q | Quit                     |
-| Enter     | Start new line           |
-| ;         | Command                  |
+| Key       | description                |
+|-----------|----------------------------|
+| Tab       | Open/Close file explorer   |
+| Ctrl + F  | Find current file location |
+| Alt + L   | Format code                |
+| F12       | Open/Close terminal        |
+| F7        | New terminal               |
+| F8        | Prev terminal              |
+| F9        | Next terminal              |
+| F10       | Delete current terminal    |
+| Ctrl + K  | Go up a window             |
+| Ctrl + J  | Go down a window           |
+| Ctrl + H  | Go left a window           |
+| Ctrl + L  | Go right a window          |
+| Space     | Search                     |
+| Shift + Q | Quit                       |
+| Enter     | Start new line             |
+| ;         | Command                    |
 
 #### Insert
 
