@@ -2,8 +2,7 @@ local opts = { silent = true, noremap = true, expr = true, replace_keycodes = fa
 
 return {
     "neoclide/coc.nvim",
-    branch = "master",
-    build = "npm ci",
+    branch = "release",
     config = function()
         vim.keymap.set("i", "<CR>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts);
     end,
