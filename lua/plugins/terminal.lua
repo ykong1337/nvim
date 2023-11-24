@@ -13,9 +13,5 @@ return {
         vim.keymap.set("t", "<F10>", [[<C-\><C-n>:FloatermKill<CR>]], silent)
         vim.keymap.set("n", "<F12>", [[:FloatermToggle<CR>]], silent)
         vim.keymap.set("t", "<F12>", [[<C-\><C-n>:FloatermToggle<CR>]], silent)
-
-        if vim.fn.has("win32") or vim.fn.has("win64") then
-            vim.g.floaterm_shell = "powershell"
-        end
     end,
 }
