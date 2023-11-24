@@ -5,7 +5,7 @@
 #### linux
 
 ```shell
-pacman -S neovim nodejs npm
+pacman -S neovim nodejs
 cd ~/.config
 git clone https://github.com/ykong1337/nvim
 ```
