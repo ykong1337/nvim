@@ -1,1 +1,1 @@
-vim.cmd [[colorscheme monokai_pro]]
+vim.cmd [[colorscheme tokyonight-day]]

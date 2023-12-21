@@ -1,4 +1,4 @@
 return {
-    "tanvirtin/monokai.nvim",
+    "folke/tokyonight.nvim",
     opts = {},
 }
